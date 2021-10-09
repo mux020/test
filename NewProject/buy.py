@@ -27,3 +27,5 @@ class buy:
     def newmeth(self):
         print("new meth added")
         print("addne new comment ")
+
+        print("changes made")
