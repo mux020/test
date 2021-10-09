@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from NewProject.purchase import purchase
+from purchase import purchase
 
 
 class buy:
@@ -24,4 +24,5 @@ class buy:
         purchaseprod = purchase(self.driver)
         return purchaseprod
 
-
+    def newmeth(self):
+        print("new meth added")
